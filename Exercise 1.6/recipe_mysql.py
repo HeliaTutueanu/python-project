@@ -21,7 +21,6 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS Recipes (
                difficulty   VARCHAR(20)
 )''')
 
-
 def main_menu(conn, cursor):
     choice = ""
     while(choice != 'quit'):
